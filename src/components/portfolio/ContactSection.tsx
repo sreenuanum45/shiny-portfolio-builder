@@ -41,14 +41,14 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "sreenu@example.com",
-      href: "mailto:sreenu@example.com"
+      value: "anumandlasreenu@gmail.com",
+      href: "mailto:anumandlasreenu@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 9876543210",
-      href: "tel:+919876543210"
+      value: "+91 7416472820",
+      href: "tel:+917416472820"
     },
     {
       icon: MapPin,
@@ -62,13 +62,13 @@ const ContactSection = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/sreenuanum45",
       color: "hover:text-gray-900"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://linkedin.com/in/anumandla-sreenu",
       color: "hover:text-blue-600"
     },
     {

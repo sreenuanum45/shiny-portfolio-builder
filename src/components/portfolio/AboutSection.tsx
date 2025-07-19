@@ -2,10 +2,10 @@ import { User, MapPin, Calendar, Award } from "lucide-react";
 
 const AboutSection = () => {
   const stats = [
-    { number: "3+", label: "Years Experience", icon: Calendar },
-    { number: "20+", label: "Projects Completed", icon: Award },
-    { number: "15+", label: "Technologies", icon: User },
-    { number: "100%", label: "Client Satisfaction", icon: Award },
+    { number: "2.5+", label: "Years Experience", icon: Calendar },
+    { number: "500+", label: "Test Cases Automated", icon: Award },
+    { number: "35%", label: "Defect Reduction", icon: User },
+    { number: "3+", label: "Zero-Defect Releases", icon: Award },
   ];
 
   return (
@@ -35,7 +35,7 @@ const AboutSection = () => {
           <div className="space-y-6">
             <div className="space-y-4">
               <h3 className="text-3xl font-display font-semibold text-foreground">
-                Full Stack Developer
+                QA Automation Engineer
               </h3>
               <div className="flex items-center text-muted-foreground mb-4">
                 <MapPin className="w-5 h-5 mr-2" />
@@ -43,16 +43,15 @@ const AboutSection = () => {
               </div>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate full-stack developer with expertise in modern web technologies. 
-                I love creating efficient, scalable solutions that make a real impact. My journey 
-                in software development has been driven by curiosity and a desire to solve 
-                complex problems through elegant code.
+                QA Automation Engineer with 2.5+ years of experience in building scalable test automation 
+                frameworks for web and API platforms, integrating them into CI/CD pipelines (Jenkins). 
+                Specialized in Selenium WebDriver, REST Assured, TestNG, and JMeter.
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                When I'm not coding, you'll find me exploring new technologies, contributing to 
-                open-source projects, or mentoring fellow developers. I believe in continuous 
-                learning and staying updated with the latest industry trends.
+                Automated 500+ test cases across functional, regression, and performance testing, 
+                reducing post-release defects by up to 35%. Skilled in building BDD, data-driven, 
+                and hybrid frameworks using Java and Cucumber.
               </p>
             </div>
 
@@ -60,19 +59,19 @@ const AboutSection = () => {
             <div className="grid grid-cols-2 gap-4 py-6">
               <div>
                 <h4 className="font-semibold text-foreground mb-2">Education</h4>
-                <p className="text-muted-foreground">B.Tech Computer Science</p>
+                <p className="text-muted-foreground">B.Tech - Malla Reddy Engineering College</p>
               </div>
               <div>
                 <h4 className="font-semibold text-foreground mb-2">Experience</h4>
-                <p className="text-muted-foreground">3+ Years</p>
+                <p className="text-muted-foreground">2.5+ Years</p>
               </div>
               <div>
                 <h4 className="font-semibold text-foreground mb-2">Email</h4>
-                <p className="text-muted-foreground">sreenu@example.com</p>
+                <p className="text-muted-foreground">anumandlasreenu@gmail.com</p>
               </div>
               <div>
                 <h4 className="font-semibold text-foreground mb-2">Phone</h4>
-                <p className="text-muted-foreground">+91 9876543210</p>
+                <p className="text-muted-foreground">+91 7416472820</p>
               </div>
             </div>
           </div>

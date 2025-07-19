@@ -4,58 +4,58 @@ import { Button } from "@/components/ui/button";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard. Built with modern technologies for optimal performance.",
+      title: "2the Point (Adaptive Learning)",
+      description: "Built hybrid Selenium automation framework (POM + DDT) from scratch with cross-browser testing capabilities. Automated 80+ test cases achieving 100% functional coverage of checkout, quiz, and dashboard modules.",
       image: "/api/placeholder/400/250",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Redis"],
+      technologies: ["Selenium WebDriver", "TestNG", "Maven", "Java", "Jenkins", "Cucumber", "BDD"],
       liveUrl: "#",
       githubUrl: "#",
-      category: "Full Stack"
+      category: "Test Automation"
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task management application with real-time updates, team collaboration features, and advanced project tracking capabilities.",
+      title: "IoT Marketplace Testing",
+      description: "Comprehensive API testing framework with performance testing using JMeter. Automated 50+ REST API test cases and simulated 10,000+ concurrent device requests, identifying memory leaks.",
       image: "/api/placeholder/400/250",
-      technologies: ["Vue.js", "Firebase", "Vuex", "Tailwind CSS"],
+      technologies: ["REST Assured", "Postman", "JMeter", "WireMock", "TestNG", "Java"],
       liveUrl: "#",
       githubUrl: "#",
-      category: "Frontend"
+      category: "API Testing"
     },
     {
-      title: "Analytics Dashboard",
-      description: "Comprehensive analytics dashboard with interactive charts, real-time data visualization, and customizable reporting features for business intelligence.",
+      title: "NLP-Driven Test Automation",
+      description: "Innovative codeless automation system converting natural-language requirements into executable tests with 82% accuracy. Reduced test design effort by 65% through NLP integration.",
       image: "/api/placeholder/400/250",
-      technologies: ["React", "D3.js", "Python", "FastAPI", "PostgreSQL"],
+      technologies: ["Selenium", "Java", "BDD", "Natural Language Processing", "API Testing"],
       liveUrl: "#",
       githubUrl: "#",
-      category: "Data Visualization"
+      category: "Innovation"
     },
     {
-      title: "Social Media App",
-      description: "Modern social media application with real-time messaging, content sharing, and advanced user interaction features. Optimized for mobile and desktop.",
+      title: "CI/CD Test Integration",
+      description: "Integrated test suites into Jenkins CI/CD pipeline with Git hooks, enabling automated nightly and post-deployment builds. Reduced manual effort by 70% and flaky test failures by 30%.",
       image: "/api/placeholder/400/250",
-      technologies: ["React Native", "Node.js", "Socket.io", "AWS"],
+      technologies: ["Jenkins", "Git", "Maven", "TestNG", "Selenium", "CI/CD"],
       liveUrl: "#",
       githubUrl: "#",
-      category: "Mobile"
+      category: "DevOps"
     },
     {
-      title: "Learning Management System",
-      description: "Comprehensive LMS platform with course management, video streaming, progress tracking, and interactive assessments for educational institutions.",
+      title: "Performance Testing Framework",
+      description: "Designed and executed comprehensive performance testing using JMeter. Identified memory leaks and optimized API response times by 40% during peak traffic conditions.",
       image: "/api/placeholder/400/250",
-      technologies: ["Next.js", "Prisma", "PostgreSQL", "AWS S3"],
+      technologies: ["JMeter", "Performance Testing", "Load Testing", "API Optimization"],
       liveUrl: "#",
       githubUrl: "#",
-      category: "Education"
+      category: "Performance"
     },
     {
-      title: "Weather Forecast App",
-      description: "Beautiful weather application with detailed forecasts, location-based services, and interactive maps. Features offline capabilities and push notifications.",
+      title: "Cross-Browser Testing Suite",
+      description: "Comprehensive cross-browser testing framework ensuring 100% compliance across Chrome, Firefox, and Edge browsers. Detected and logged 20+ compatibility issues.",
       image: "/api/placeholder/400/250",
-      technologies: ["Flutter", "Dart", "OpenWeather API", "SQLite"],
+      technologies: ["Selenium Grid", "Cross-browser Testing", "TestNG", "Maven"],
       liveUrl: "#",
       githubUrl: "#",
-      category: "Mobile"
+      category: "Testing"
     }
   ];
 

@@ -3,34 +3,34 @@ import { Code, Database, Globe, Smartphone, Server, Palette } from "lucide-react
 const SkillsSection = () => {
   const skillCategories = [
     {
-      title: "Frontend Development",
-      icon: Globe,
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Vue.js", "Angular"]
-    },
-    {
-      title: "Backend Development", 
-      icon: Server,
-      skills: ["Node.js", "Python", "Express", "Django", "REST APIs", "GraphQL"]
-    },
-    {
-      title: "Database & Cloud",
-      icon: Database,
-      skills: ["MongoDB", "PostgreSQL", "MySQL", "AWS", "Docker", "Kubernetes"]
-    },
-    {
-      title: "Mobile Development",
-      icon: Smartphone,
-      skills: ["React Native", "Flutter", "iOS", "Android", "Expo", "Ionic"]
-    },
-    {
-      title: "Programming Languages",
+      title: "Test Automation",
       icon: Code,
-      skills: ["JavaScript", "TypeScript", "Python", "Java", "C++", "Go"]
+      skills: ["Selenium WebDriver", "TestNG", "REST Assured", "Karate", "Playwright", "Cucumber"]
     },
     {
-      title: "Design & Tools",
+      title: "Programming & Frameworks", 
+      icon: Server,
+      skills: ["Java", "JavaScript", "Maven", "BDD", "Page Object Model", "Hybrid Framework"]
+    },
+    {
+      title: "API & Performance Testing",
+      icon: Database,
+      skills: ["Postman", "JMeter", "WireMock", "Contract Testing", "Load Testing", "Stress Testing"]
+    },
+    {
+      title: "CI/CD & DevOps",
+      icon: Smartphone,
+      skills: ["Jenkins", "Git", "Maven", "JIRA", "Agile/Scrum", "Test Planning"]
+    },
+    {
+      title: "Web Technologies",
+      icon: Globe,
+      skills: ["HTML", "CSS", "JSON", "SQL", "Cross-browser Testing", "Responsive Testing"]
+    },
+    {
+      title: "Testing Methodologies",
       icon: Palette,
-      skills: ["Figma", "Adobe XD", "Git", "VS Code", "Postman", "Jira"]
+      skills: ["SDLC", "STLC", "Functional Testing", "Regression Testing", "Smoke Testing", "API Testing"]
     }
   ];
 
@@ -86,9 +86,9 @@ const SkillsSection = () => {
           <h3 className="text-2xl font-semibold text-foreground mb-8">Additional Technologies</h3>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              "Redux", "Zustand", "Prisma", "Supabase", "Firebase", "Stripe", 
-              "Socket.io", "Jest", "Cypress", "Webpack", "Vite", "ESLint",
-              "Prettier", "GitHub Actions", "Vercel", "Netlify"
+              "Extent Report", "Data-Driven Testing", "Cross-browser Testing", "Memory Leak Detection", 
+              "Test Case Design", "Bug Tracking", "Sprint Planning", "UAT Testing",
+              "Natural Language Processing", "Codeless Automation", "Test Tags", "Mock APIs"
             ].map((tech, index) => (
               <span
                 key={index}

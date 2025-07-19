@@ -18,11 +18,11 @@ const HeroSection = () => {
             Anumandla Sreenu
           </h1>
           <p className="hero-subtitle mb-8 max-w-2xl mx-auto">
-            Full Stack Developer & Software Engineer
+            QA Automation Engineer
           </p>
           <p className="text-lg text-white/70 mb-12 max-w-3xl mx-auto">
-            Passionate about creating elegant solutions to complex problems. 
-            Specializing in modern web technologies and scalable applications.
+            Specialized in building scalable test automation frameworks for web and API platforms. 
+            Expert in Selenium WebDriver, REST Assured, TestNG, and CI/CD integration.
           </p>
         </div>
 
@@ -38,21 +38,21 @@ const HeroSection = () => {
         {/* Social Links */}
         <div className="fade-in-up-delay flex justify-center space-x-6 mb-12">
           <a 
-            href="https://github.com" 
+            href="https://github.com/sreenuanum45" 
             className="p-3 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-300 hover:scale-110"
             aria-label="GitHub Profile"
           >
             <Github className="w-6 h-6 text-white" />
           </a>
           <a 
-            href="https://linkedin.com" 
+            href="https://linkedin.com/in/anumandla-sreenu" 
             className="p-3 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-300 hover:scale-110"
             aria-label="LinkedIn Profile"
           >
             <Linkedin className="w-6 h-6 text-white" />
           </a>
           <a 
-            href="mailto:contact@example.com" 
+            href="mailto:anumandlasreenu@gmail.com" 
             className="p-3 bg-white/10 hover:bg-white/20 rounded-full transition-all duration-300 hover:scale-110"
             aria-label="Email Contact"
           >

@@ -3,49 +3,36 @@ import { Calendar, MapPin, ExternalLink } from "lucide-react";
 const ExperienceSection = () => {
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "Tech Solutions Inc.",
+      title: "QA Engineer",
+      company: "Getinfy Solutions Private Limited",
       location: "Hyderabad, India",
-      duration: "2022 - Present",
+      duration: "06/2023 - 06/2025",
       type: "Full-time",
-      description: "Leading development of scalable web applications using modern technologies.",
+      description: "Building scalable test automation frameworks for web and API platforms, integrating them into CI/CD pipelines.",
       achievements: [
-        "Led a team of 5 developers in building a microservices architecture",
-        "Improved application performance by 40% through optimization techniques",
-        "Implemented CI/CD pipelines reducing deployment time by 60%",
-        "Mentored junior developers and conducted code reviews"
+        "Built hybrid Selenium automation framework (POM + DDT) from scratch using TestNG, Maven, and Java, improving test scalability and reducing maintenance by 40%",
+        "Automated 80+ cross-browser tests for Chrome, Firefox, Edge across user roles, achieving 100% functional coverage",
+        "Integrated test suites into Jenkins CI/CD pipeline with Git hooks, reducing manual effort by 70%",
+        "Created custom reusable utility classes for WebDriver actions, Excel reading (Apache POI), wait strategies",
+        "Automated 50+ REST API test cases using Postman and REST Assured",
+        "Executed JMeter performance tests simulating 10,000+ concurrent device requests, identifying memory leak and contributing to 40% API response improvement"
       ],
-      technologies: ["React", "Node.js", "MongoDB", "AWS", "Docker"]
+      technologies: ["Selenium WebDriver", "TestNG", "Maven", "Java", "REST Assured", "JMeter", "Jenkins", "Cucumber"]
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Innovations Ltd.",
-      location: "Bangalore, India",
-      duration: "2021 - 2022",
-      type: "Full-time",
-      description: "Developed and maintained multiple client projects with focus on user experience.",
+      title: "QA Intern",
+      company: "Getinfy Solutions Private Limited",
+      location: "Hyderabad, India",
+      duration: "01/2023 - 06/2023",
+      type: "Internship",
+      description: "Architected NLP-driven codeless automation and improved test coverage for critical modules.",
       achievements: [
-        "Built responsive web applications serving 10,000+ daily users",
-        "Integrated third-party APIs and payment gateways",
-        "Collaborated with UX/UI designers to implement pixel-perfect designs",
-        "Reduced bug reports by 50% through comprehensive testing"
+        "Architected NLP-driven codeless automation (Selenium Java/BDD + API tokens), converting natural-language requirements into executable tests with 82% accuracy",
+        "Improved test coverage by 30% via test case design for critical modules",
+        "Actively participated in daily scrums and sprint planning, aligning QA strategies with agile development cycles",
+        "Slashed test design effort by 65% through innovative automation approaches"
       ],
-      technologies: ["Vue.js", "Python", "PostgreSQL", "Redis", "Heroku"]
-    },
-    {
-      title: "Frontend Developer",
-      company: "StartupXYZ",
-      location: "Remote",
-      duration: "2020 - 2021",
-      type: "Contract",
-      description: "Focused on creating engaging user interfaces and improving user experience.",
-      achievements: [
-        "Developed mobile-first responsive designs",
-        "Implemented real-time features using WebSocket connections",
-        "Optimized bundle size resulting in 30% faster load times",
-        "Created reusable component library used across multiple projects"
-      ],
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Firebase"]
+      technologies: ["Selenium", "Java", "BDD", "API Testing", "Natural Language Processing", "Agile/Scrum"]
     }
   ];
 
