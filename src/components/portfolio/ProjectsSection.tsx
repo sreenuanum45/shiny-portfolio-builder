@@ -81,7 +81,7 @@ const ProjectsSection = () => {
                   <Eye className="w-12 h-12 text-white/50" />
                 </div>
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" style={{backgroundImage: "url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80')", backgroundSize: 'cover', backgroundPosition: 'center'}}>
                   <div className="absolute bottom-4 left-4 right-4 flex gap-2">
                     <Button size="sm" variant="secondary" className="flex-1">
                       <ExternalLink className="w-4 h-4 mr-2" />
